@@ -284,7 +284,7 @@ function gameLoop() {
     ctx.fillRect(0, groundY + player.height, canvas.width, canvas.height);
     
     obstacleTimer++;
-    if (obstacleTimer > 60 + Math.random() * 60) { 
+    if (obstacleTimer > 100 + Math.random() * 100) { 
         createObstacle();
         obstacleTimer = 0;
     }
@@ -327,6 +327,7 @@ function resetGame() {
     }
 
 }
+
 
 
 
