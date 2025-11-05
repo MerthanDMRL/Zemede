@@ -36,7 +36,7 @@ let player = {
 
 let finalObstacleCreated = false;
 let obstacles = [];
-let gameSpeed = 2;
+let gameSpeed = 3;
 let score = 0;
 let isGameOver = false;
 let isGameWon = false; 
@@ -327,6 +327,7 @@ function resetGame() {
     }
 
 }
+
 
 
 
