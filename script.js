@@ -5,7 +5,7 @@ const scoreDisplay = document.getElementById('scoreDisplay');
 
 // --- Oyun Değişkenleri ve Sabitler ---
 
-const PLAYER_WIDTH = 80;
+const PLAYER_WIDTH = 120;
 const PLAYER_HEIGHT = 200;
 
 const groundY = canvas.height - PLAYER_HEIGHT; 
@@ -195,7 +195,7 @@ function updateHearts() {
 function jump() {
     if (!isGameOver && !player.isJumping) {
         player.isJumping = true;
-        player.vy = -15; 
+        player.vy = -20; 
         createHeartParticle(); 
     }
 }
@@ -327,4 +327,5 @@ function resetGame() {
     }
 
 }
+
 
