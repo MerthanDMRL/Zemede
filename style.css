@@ -1,4 +1,5 @@
 body {
+    /* Mobil düzgünlüğü için temel ayarlar */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,11 +9,17 @@ body {
     background-color: #f0f0f0;
     font-family: sans-serif;
     user-select: none; /* iOS'ta seçimi engeller */
+    
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #gameCanvas {
     border: 2px solid #333;
-    background-color: #e0f7fa; /* Açık mavi gökyüzü */
+    background-color: #e0f7fa; 
+
+    max-width: 100%; 
+    height: auto; 
 }
 
 #scoreDisplay {
