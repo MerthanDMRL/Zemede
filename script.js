@@ -36,7 +36,7 @@ let player = {
 
 let finalObstacleCreated = false;
 let obstacles = [];
-let gameSpeed = 5;
+let gameSpeed = 2;
 let score = 0;
 let isGameOver = false;
 let isGameWon = false; 
@@ -325,4 +325,5 @@ function resetGame() {
     if (player.image.complete && !isGameOver) {
         gameLoop();
     }
+
 }
