@@ -31,7 +31,7 @@ finalPhoto.onerror = () => { console.warn("UYARI: final_photo.png yüklenemedi."
 let player = {
     x: 50, y: 0, width: PLAYER_WIDTH, height: PLAYER_HEIGHT, 
     hitboxOffset: { x: 25, y: 5 },
-    image: new Image(), vy: 0, gravity: 0.8, isJumping: false
+    image: new Image(), vy: 0, gravity: 0.6, isJumping: false
 };
 
 let finalObstacleCreated = false;
@@ -327,3 +327,4 @@ function resetGame() {
     }
 
 }
+
